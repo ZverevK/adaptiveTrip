@@ -1,0 +1,34 @@
+.video__content-title {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+    .video__content-title {
+        max-width: 420px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__content-title {
+        max-width: 400px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .video__content-title {
+        max-width: 310px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

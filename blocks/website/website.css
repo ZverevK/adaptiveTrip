@@ -1,0 +1,15 @@
+@import url(__url-heading/website__url-heading.css);
+@import url(__url/website__url.css);
+@import url(__link/website__link.css);
+
+.website {
+    margin: 0;
+    padding: 0;
+    align-self: end;
+}
+
+@media screen and (max-width: 650px) {
+    .website {
+        display: none;
+    }
+}

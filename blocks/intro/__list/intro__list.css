@@ -1,0 +1,18 @@
+@import url(_type/intro__list_type_bold.css);
+
+.intro__list {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .intro__list {
+        font-size: 12px;
+    }
+}

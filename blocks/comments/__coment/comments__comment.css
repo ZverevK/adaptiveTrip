@@ -1,0 +1,4 @@
+.comments__comment {
+    display: flex;
+    flex-direction: column;
+}

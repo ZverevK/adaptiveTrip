@@ -1,0 +1,29 @@
+@import url(__title/travel__title.css);
+@import url(__picture/travel__picture.css);
+@import url(__subtitle/travel__subtitle.css);
+@import url(__caption/travel__caption.css);
+@import url(__figure/travel__figure.css);
+
+.travel {
+    max-width: 985px;
+}
+
+@media screen and (max-width: 1024px) {
+    .travel {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .travel {
+        max-width: cacl(100% - 20px);
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .travel  {
+        width: 100%;
+        padding: 0 0;
+    }
+}

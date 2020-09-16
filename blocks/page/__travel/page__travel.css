@@ -1,0 +1,9 @@
+.page__travel {
+    margin: 58px auto 0 auto;
+}
+
+@media screen and (max-width: 375px) {
+    .page__travel {
+        margin: 51px auto 0 auto;
+    }
+}

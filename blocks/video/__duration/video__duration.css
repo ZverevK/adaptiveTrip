@@ -1,0 +1,45 @@
+@import url(_observatory/video__duration_observatory.css);
+
+.video__duration {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: .3em;
+    color: #ffffff;
+    position: relative;
+    padding-top: 54px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 945px) {
+    .video__duration {
+        padding-top: 36px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .video__duration {
+        padding-top: 54px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video__duration {
+        padding-top: 36px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .video__duration {
+        padding-top: 49px;
+        padding-left: 16px;
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 935px) {
+    .comments__quote_sergey:before {
+        content: "Сергей Максимишин";
+        font-family: Inter, Arial, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 22px;
+        display: block;
+        max-width: 160px;
+        padding: 0 calc((100% - 160px)/2);
+        padding-bottom: 24px;
+    }
+}

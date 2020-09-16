@@ -1,0 +1,15 @@
+.page__grid {
+    margin: 101px auto 0 auto;
+}
+
+@media screen and (max-width: 375px) {
+    .page__grid {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page__grid {
+        margin-top: 55px;
+    }
+}

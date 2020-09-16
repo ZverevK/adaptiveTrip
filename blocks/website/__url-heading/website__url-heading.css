@@ -1,0 +1,9 @@
+.website__url-heading {
+    list-style-type: none;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style: 20px;
+    letter-spacing: .2em;
+    color: #aaaaaa;
+    text-transform: uppercase;
+}

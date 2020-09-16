@@ -1,0 +1,11 @@
+.comments__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 935px) {
+    .comments__image {
+        padding: 0 calc((100% - 97px)/2)
+    }
+}

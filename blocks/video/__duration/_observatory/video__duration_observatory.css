@@ -1,0 +1,23 @@
+@media screen and (max-width: 945px) {
+    .video__duration.video__duration_observatory {
+        padding-top: 17px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .video__duration.video__duration_observatory {
+        padding-top: 54px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video__duration.video__duration_observatory {
+        padding-top: 17px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .video__duration.video__duration_observatory {
+        padding-top: 23px;
+    }
+}

@@ -1,0 +1,9 @@
+.page__video {
+    margin: 132px auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .page__video {
+        margin-top: 82px;
+    }
+}

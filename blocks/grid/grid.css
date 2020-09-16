@@ -1,0 +1,56 @@
+@import url(__item/grid__item.css);
+
+.grid {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-gap: 16px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(3, 300px);
+        padding: 0 calc((100% - (900px + (16px*2)))/2);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        padding: 0 24px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-gap: 16px;
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .grid {
+        grid-template-columns: 343px;
+        padding-left: calc((100% - 343px)/2);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .grid {
+        grid-template-columns: 343px;
+        grid-template-rows: repeat(12, 232px);
+        padding-left: calc((100% - 343px)/2);
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .grid {
+        grid-template-columns: 288px;
+        grid-template-rows: repeat(12, 192px); 
+        grid-gap: 8px;
+        padding-left: calc((100% - 288px)/2);
+    }
+}
